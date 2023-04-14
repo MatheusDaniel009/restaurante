@@ -222,8 +222,7 @@ while (continua == 's');
 
     }
 
-    Console.Write("Deseja pedir mais alguma sobremesa? \nDigite 's' para sim ou 'n' para não: ");
-    continua = char.Parse(Console.ReadLine());
+    
 
     while (continua != 's' && continua != 'n')
     {
@@ -260,6 +259,9 @@ while (continua == 's');
 
 
         }
+
+        Console.Write("Deseja pedir mais alguma sobremesa? \nDigite 's' para sim ou 'n' para não: ");
+        continua = char.Parse(Console.ReadLine());
 
         Console.Clear();
     }
